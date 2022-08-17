@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h2 class="titulo">OJOGO</h2>
+
+      <section>
+        <div class="container_global">
+          <div class="bg_direito">
+            <img class="logo" src="./img/image 1.png" alt="icone" />
+            <label for="">Nick:</label>
+            <input class="nome" type="text" />
+            <label for="">Intervalo:</label>
+            <select class="select" id="intervalo">
+              <option value="option1">Opção 1: 1 a 10</option>
+              <option value="option2">Opção 2: 1 a 100</option>
+              <option value="option3">Opção 3: 1 a 200</option>
+            </select>
+            <button disabled id="button_comecar">Começar</button>
+          </div>
+          <hr />
+          <div class="bg_esquerdo">
+            <p class="paragrafo">
+              Olá <b id="nome_jogador"></b>, vamos jogar! De acordo com a opçao
+              de intervalo que você escolheu, descubra o número.
+            </p>
+            <label for="">Digite um número:</label>
+            <input class="numero" type="number" />
+            <button id="button_jogar">JOGAR</button>
+            <button class="reload">Jogar novamente</button>
+            <p class="msg"></p>
+            <p class="qnt_tentativas"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
