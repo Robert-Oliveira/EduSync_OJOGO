@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: #f2890d;
-  margin-top: 7%;
+  margin-top: 10%;
 }
 main {
   display: flex;
@@ -155,8 +155,8 @@ p {
     margin-top: 10%;
   }
   body {
-    padding-top: 70%;
-    margin-bottom: 50%;
+    padding-top: 100px;
+    margin-bottom: 100px;
   }
   main {
     margin-top: 10%;
@@ -198,5 +198,11 @@ p {
   }
   .reload {
     width: 200px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body {
+    padding-top: 100px;
+    margin-bottom: 15%;
   }
 }
