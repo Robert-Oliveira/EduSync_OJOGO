@@ -95,6 +95,9 @@ select {
 .txt {
   text-align: center;
 }
+.txt_digite {
+  width: 350px;
+}
 #button_comecar {
   width: 40%;
   height: 42px;
@@ -172,6 +175,7 @@ p {
   .bg_esquerdo {
     width: 280px;
   }
+
   .bg_direito {
     width: 280px;
   }
